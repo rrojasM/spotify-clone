@@ -23,7 +23,7 @@ export class SideBarComponent implements OnInit {
   ngOnInit(): void {
     this.mainMenu.defaultOptions = [
       {
-        name: "Home",
+        name: "Inicio",
         icon: "uil uil-estate",
         router: ["/", "auth"],
       },
